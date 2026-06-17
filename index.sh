@@ -4,5 +4,7 @@ date
 
 echo "Deploying to server..."
 
-cp index.sh ~/deploy/
+mkdir -p $WORKSPACE/deploy
+cp index.sh $WORKSPACE/deploy/
+
 echo "Deployment done!"
