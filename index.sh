@@ -1,3 +1,3 @@
-echo "Hello  TRIGGER WORKING"
+echo "Hello AUTO TRIGGER WORKING"
 uname -a
 date
