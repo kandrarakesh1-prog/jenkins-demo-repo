@@ -1,3 +1,3 @@
-echo "Hello from GitHub"
+echo "Hello AUTO TRIGGER WORKING"
 uname -a
 date
