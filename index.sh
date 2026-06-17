@@ -2,9 +2,10 @@ echo "Building project..."
 uname -a
 date
 
-echo "Deploying to server..."
+echo "Deploying to web server..."
 
-mkdir -p $WORKSPACE/deploy
-cp index.sh $WORKSPACE/deploy/
+echo "Hello from Jenkins Deployment - Auto CI/CD Working" > $WORKSPACE/index.html
+
+cp $WORKSPACE/index.html /var/www/html/jenkins-app/
 
 echo "Deployment done!"
